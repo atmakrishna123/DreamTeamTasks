@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    gap: 20px;
+    font-size:3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #1c1c1c;
+    padding: 20px;
+}

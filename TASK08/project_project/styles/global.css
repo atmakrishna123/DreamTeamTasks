@@ -1,0 +1,179 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Arial',sans-serif;
+    background-color:#121212;
+    color:#ffffff;
+}
+.navigationBar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:transparent;
+    padding:10px 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+}
+.mainDiv{
+    display:flex;
+    align-items:center;
+}
+.navBar button{
+    width:300px;
+    height:100px;
+    background-color:#333;
+    border-radius:5px;
+    color:#fff;
+    margin:0 5px;
+    padding:8px 16px;
+    font-size:20px;
+    cursor:pointer;
+}
+.letterboxdImage{
+    max-height:50px;
+}
+.searchBox{
+    width:300px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    background-color:#333;
+    border-radius:25px;
+    padding:10px;
+    width:300px;
+}
+.searchInput {
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size:1rem;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+.searchButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size:60px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+.searchBox input:focus {
+    outline: none;
+}
+.heroSection{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image:url('/images/Harry-Potter-Wallpapers-Widescreen-HD.jpg');
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+    padding-top:60px;
+}
+.heroSection h1{
+    font-Size:5rem;
+    font-weight:bold;
+    color:white;
+    text-shadow:4px 4px black;
+}
+.heroSection p{
+    font-size:3rem;
+    margin-top:20px;
+    color:white;
+    text-shadow:2px 2px black
+}
+.heroSection .startedButton{
+    margin-top:20px;
+    padding:100px 30px;
+    font-size:5rem;
+    background-color:#28a745;
+    color:#fff;
+    border-radius:30px;
+    border:none;
+    cursor:pointer;
+}
+.heroSection .startedButton:hover{
+    background-color:#218838;
+}
+.navbar .films{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbar .films:hover{
+    color:#f39c12;
+}
+@media (max-width:1024px){
+    .heroSection h1{
+        font-size:3.5rem;
+    }
+    .heroSection p{
+        font-size:2rem;
+    }
+    .heroSection .startedButton{
+        padding:60px 20px;
+        font-size:3rem;
+    }
+}
+@media (max-width:768px){
+    .navigationBar {
+        flex-direction:column;
+        padding: 10px;
+    }
+    .navBar button {
+        font-size:16px;
+        margin:5px 0;
+    }
+    .searchBox {
+        width:100%;
+        padding:8px;
+    }
+    .heroSection {
+        padding-top:40px;
+        text-align:center;
+    }
+    .heroSection h1 {
+        font-size:3rem;
+    }
+    .heroSection p {
+        font-size:1.8rem;
+    }
+    .heroSection .startedButton {
+        padding:50px 20px;
+        font-size:2.5rem;
+    }
+}
+@media (max-width:480px) {
+    .navigationBar {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .navBar button {
+        font-size:14px;
+        margin:5px 0;
+    }
+    .searchBox {
+        width:100%;
+        padding:5px;
+    }
+    .heroSection h1 {
+        font-size:2.5rem;
+    }
+    .heroSection p {
+        font-size:1.5rem;
+    }
+    .heroSection .startedButton {
+        padding:40px 15px;
+        font-size:2rem;
+    }
+}

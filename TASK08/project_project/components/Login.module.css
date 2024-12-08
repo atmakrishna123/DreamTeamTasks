@@ -1,0 +1,75 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-color: #e6f0fa;
+}
+.loginForm {
+    background-color: #5a98af;
+    border-radius: 8px;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size:1.1rem;
+}
+.loginTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.loginLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color:#f0f8ff;
+}
+.loginInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+.loginCheckboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color:#f0f8ff;
+}
+.loginLink {
+    color: #f0f8ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.loginRecaptcha {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.signupButton {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.signupButton:hover {
+    background-color: #218838;
+}
