@@ -1,5 +1,5 @@
 # GIT Exercises
-
+My blog:https://medium.com/@atmakrishnakr2005/git-exercises-444cf66dbb87
 ## Task 01
 ### Commands Used:
 - git start
