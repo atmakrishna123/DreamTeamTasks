@@ -1,7 +1,7 @@
 # Walkthrough of Bandit OverTheWire
 
 The OverTheWird bandit was quite a challenging and interesting task to me. The curiosity inside me to find the password of the next level and to decode the code knew no limits.
-
+My blog :https://medium.com/@atmakrishnakr2005/walkthrough-of-bandit-overthewire-6d1a05f28d16
 ---
 
 ## Assignment 00
